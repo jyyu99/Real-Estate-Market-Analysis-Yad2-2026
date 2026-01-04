@@ -23,7 +23,7 @@ DAX: Advanced measures for dynamic KPIs
 
 Dataset: Cleaned Yad2 listings (2026)
 
-🛠️ Directory Breakdown
+📂 Directory Breakdown
 data/: Separating raw and cleaned data is crucial for reproducibility. The cleaned_data.csv is the result of the Python pipeline.
 
 notebooks/: Contains the "heavy lifting." This is where I handled Hebrew string reversals, removed outliers (e.g., apartments with 0 rooms or 1m NIS/sqm), and formatted prices.
