@@ -65,6 +65,7 @@ Luxury Market dominance: As highlighted in the "Top 10 Settlements" chart, the l
 Supply Composition: The "Property Type" donut chart reveals a market heavily skewed towards standard apartments (~67%), with niche assets like Garden Apartments and Penthouses representing a smaller, premium fraction of the inventory.
 
 Demand Hotspots: The geographic heatmap visually confirms that market activity and high-price clusters are densely concentrated in the Gush Dan (Tel Aviv Metropolitan) and coastal regions, fading significantly as you move inland.
+![yad2_dashboard_page-0001](https://github.com/user-attachments/assets/3caf1b55-dd0e-47fe-86bf-3001e6789367)
 
 📝 How to Use
 Python: Run the data_cleaning.ipynb to see the transformation logic.
