@@ -23,18 +23,14 @@ DAX: Advanced measures for dynamic KPIs
 
 Dataset: Cleaned Yad2 listings (2026)
 
-📂 Project Structure
-Plaintext
+🛠️ Directory Breakdown
+data/: Separating raw and cleaned data is crucial for reproducibility. The cleaned_data.csv is the result of the Python pipeline.
 
-├── data/
-│   ├── raw_yad2_data.csv       # Original dataset before processing
-│   └── cleaned_yad2_data.csv   # Final dataset used in Power BI
-├── notebooks/
-│   └── data_cleaning.ipynb     # Jupyter Notebook with Python ETL code
-├── dashboard/
-│   └── yad2_analysis_2026.pbix # Power BI Dashboard file
-├── images/                     # Screenshots for documentation
-└── README.md
+notebooks/: Contains the "heavy lifting." This is where I handled Hebrew string reversals, removed outliers (e.g., apartments with 0 rooms or 1m NIS/sqm), and formatted prices.
+
+dashboard/: The .pbix file. This contains the DAX measures, the data model, and the final interactive UI.
+
+images/: Essential for GitHub. Since people can't "run" a Power BI file inside GitHub, these screenshots act as your portfolio's front window.
 🧠 Phase 1: Python Data Cleaning
 The raw data was "noisy" with Hebrew encoding issues and missing values. Key steps included:
 
