@@ -1,14 +1,78 @@
-Title: Real Estate Market Analysis (Yad2) | 2026
-Project Overview: A comprehensive data analysis project that scrapes (or cleans) real estate listings from Yad2, processes the data using Python, and visualizes market trends through an interactive Power BI dashboard.
+🏠 Israel Real Estate Market Analysis 2026 | Yad2 Insights
+An end-to-end data analytics project featuring a Python-based ETL pipeline and an interactive Power BI Dashboard. This project analyzes real estate listings from Israel's leading portal (Yad2) to uncover pricing trends, regional demand, and investment opportunities in 2026.
 
-Phase 1: Data Cleaning & Preprocessing (Python)
-Tools: Pandas, NumPy.
+(Replace this with your actual image path later)
 
-Key Tasks: Handling missing values in price and area, removing outliers (extreme prices), and creating new features like Price per SQM.
+🚀 Project Overview
+This project bridge the gap between raw web-scraped data and actionable business intelligence. It covers:
 
-Outcome: Transformed a messy dataset into a structured format ready for BI.
+Data Wrangling: Cleaning messy Hebrew-based real estate data using Python.
 
-Phase 2: Interactive Dashboard (Power BI)
-Key Features: Hierarchical filtering (City > Neighborhood > Street), KPI tracking for 2026 market benchmarks, and regional price distribution.
+Feature Engineering: Calculating KPIs like Price per SQM and identifying market outliers.
 
-Tech Stack: DAX for measures, Power Query, Advanced Visualization.
+Interactive Visualization: A user-friendly dashboard for deep-diving into neighborhoods and street-level data.
+
+🛠️ Tech Stack
+Language: Python 3.x
+
+Libraries: Pandas, NumPy (Data Cleaning & Analysis)
+
+Visualization: Power BI Desktop
+
+DAX: Advanced measures for dynamic KPIs
+
+Dataset: Cleaned Yad2 listings (2026)
+
+📂 Project Structure
+Plaintext
+
+├── data/
+│   ├── raw_yad2_data.csv       # Original dataset before processing
+│   └── cleaned_yad2_data.csv   # Final dataset used in Power BI
+├── notebooks/
+│   └── data_cleaning.ipynb     # Jupyter Notebook with Python ETL code
+├── dashboard/
+│   └── yad2_analysis_2026.pbix # Power BI Dashboard file
+├── images/                     # Screenshots for documentation
+└── README.md
+🧠 Phase 1: Python Data Cleaning
+The raw data was "noisy" with Hebrew encoding issues and missing values. Key steps included:
+
+Normalization: Standardized area (SQM) and price formats.
+
+Outlier Removal: Filtered out unrealistic listings (e.g., 0 NIS prices or 1,000,000 SQM apartments).
+
+Hebrew Support: Handled Right-to-Left (RTL) string formatting for cities and streets.
+
+Calculated Columns: Created Price_per_SQM to allow fair comparisons between regions.
+
+📊 Phase 2: Power BI Dashboard Features
+The dashboard is designed for both casual buyers and professional investors:
+
+Dynamic KPIs: Real-time tracking of Total Listings, Average Price, and Price per SQM.
+
+Hierarchical Slicers: Drill down from City ➔ Neighborhood ➔ Street.
+
+Regional Heatmap: Visualizing property density across Israel.
+
+Price Distribution: Bar charts comparing "Average Price per SQM" by settlement to identify "Value for Money" areas.
+
+Quick Reset: A dedicated button to clear all filters instantly.
+
+💡 Key Market Insights (2026)
+This dashboard leverages data from over 9,900 active listings to reveal critical market dynamics:
+
+Valuation Disparities: The "Price per SQM" ranking exposes significant valuation gaps between central hubs and peripheral cities, helping users identify undervalued areas relative to the national average of ~₪15,600/sqm.
+
+Luxury Market dominance: As highlighted in the "Top 10 Settlements" chart, the luxury segment is led by exclusive communities (e.g., Kfar Shmaryahu, Savyon), where average asking prices far exceed the national baseline of ₪3.45M.
+
+Supply Composition: The "Property Type" donut chart reveals a market heavily skewed towards standard apartments (~67%), with niche assets like Garden Apartments and Penthouses representing a smaller, premium fraction of the inventory.
+
+Demand Hotspots: The geographic heatmap visually confirms that market activity and high-price clusters are densely concentrated in the Gush Dan (Tel Aviv Metropolitan) and coastal regions, fading significantly as you move inland.
+
+📝 How to Use
+Python: Run the data_cleaning.ipynb to see the transformation logic.
+
+Power BI: Open yad2_analysis_2026.pbix (requires Power BI Desktop).
+
+Explore: Use the sidebar to filter by budget and location.
