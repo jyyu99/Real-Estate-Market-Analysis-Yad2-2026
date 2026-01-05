@@ -1,7 +1,7 @@
-🏠 Real Estate Market Analysis 2026 | Yad2 Insights
+***🏠 Real Estate Market Analysis 2026 | Yad2 Insights***
 An end-to-end data analytics project featuring a Python-based ETL pipeline and an interactive Power BI Dashboard. This project analyzes real estate listings from Israel's leading portal (Yad2) to uncover pricing trends, regional demand, and investment opportunities in 2026.
 
-(Replace this with your actual image path later)
+![yad2_dashboard_page-0001](https://github.com/user-attachments/assets/3caf1b55-dd0e-47fe-86bf-3001e6789367)
 
 🚀 Project Overview
 This project bridge the gap between raw web-scraped data and actionable business intelligence. It covers:
@@ -65,7 +65,7 @@ Luxury Market dominance: As highlighted in the "Top 10 Settlements" chart, the l
 Supply Composition: The "Property Type" donut chart reveals a market heavily skewed towards standard apartments (~67%), with niche assets like Garden Apartments and Penthouses representing a smaller, premium fraction of the inventory.
 
 Demand Hotspots: The geographic heatmap visually confirms that market activity and high-price clusters are densely concentrated in the Gush Dan (Tel Aviv Metropolitan) and coastal regions, fading significantly as you move inland.
-![yad2_dashboard_page-0001](https://github.com/user-attachments/assets/3caf1b55-dd0e-47fe-86bf-3001e6789367)
+
 
 📝 How to Use
 Python: Run the data_cleaning.ipynb to see the transformation logic.
