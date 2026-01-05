@@ -1,4 +1,4 @@
-***🏠 Real Estate Market Analysis 2026 | Yad2 Insights***
+#🏠 Real Estate Market Analysis 2026 | Yad2 Insights
 An end-to-end data analytics project featuring a Python-based ETL pipeline and an interactive Power BI Dashboard. This project analyzes real estate listings from Israel's leading portal (Yad2) to uncover pricing trends, regional demand, and investment opportunities in 2026.
 
 ![yad2_dashboard_page-0001](https://github.com/user-attachments/assets/3caf1b55-dd0e-47fe-86bf-3001e6789367)
