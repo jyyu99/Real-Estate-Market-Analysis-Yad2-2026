@@ -28,7 +28,6 @@ This project bridges the gap between raw web-scraped data and actionable busines
 * `data/`: Contains `raw_data.csv` and the final `cleaned_data.csv` resulting from the Python pipeline.
 * `notebooks/`: Contains the "heavy lifting" (Jupyter Notebooks). Includes scraper logic and data cleaning (handling Hebrew RTL, outlier removal, and price formatting).
 * `dashboard/`: The `.pbix` file containing the data model, DAX measures, and the interactive UI.
-* `images/`: High-resolution screenshots of the dashboard for quick previewing.
 
 ---
 
